@@ -109,4 +109,4 @@ $baselineFilePath = "C:\Scripts\Basic_FIM\baseline.csv"
 
 Create-Baseline -baselineFilePath $baselineFilePath
 Add-FileToBaseline -baselineFilePath $baselineFilePath -targetFilePath "C:\Scripts\Basic_FIM\Files\TestFileA.txt"
-#Verify-Baseline -baselineFilePath $baselineFilePath
+Verify-Baseline -baselineFilePath $baselineFilePath
